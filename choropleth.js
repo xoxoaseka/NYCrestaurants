@@ -1,5 +1,5 @@
-var ZIPCODE_URL = "https://raw.githubusercontent.com/hvo/datasets/master/nyc_zip.geojson";
-var RES_BY_CUISINE_URL = "https://raw.githubusercontent.com/hvo/datasets/master/nyc_restaurants_by_cuisine.json";
+var ZIPCODE_URL = "https://raw.githubusercontent.com/xoxoaseka/NYCrestaurants/master/nyc_zip.geojson.txt";
+var RES_BY_CUISINE_URL = "https://raw.githubusercontent.com/xoxoaseka/NYCrestaurants/master/nyc_restaurants_by_cuisine.json";
 
 d3.queue()
   .defer(d3.json, ZIPCODE_URL)

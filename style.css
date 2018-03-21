@@ -1,0 +1,68 @@
+/*.dot {
+  stroke: black;
+}
+
+.title {
+  font-family: Helvetica;
+  font-size: 20px;
+  fill: black;
+  text-anchor: middle;
+}
+
+.legend--frame {
+  stroke: black;
+  fill: lightgray;
+}
+
+.legend--item--box {
+  stroke: black;
+  fill: none;
+}
+
+.legend--item--label {
+  font-family: Helvetica;
+  font-size: 14px;
+  fill: black;
+  alignment-baseline: central;
+}
+
+.label {
+  fill: black;
+  font-family: Helvetica;
+  font-size: 14px;
+  text-anchor: middle;
+}*/
+
+.zipcode {
+  stroke: black;
+  stroke-width: 0.5px;
+  fill: none;
+}
+
+
+.bar {
+  fill: steelblue;
+  stroke: black;
+}
+
+.bar:hover {
+  fill: salmon;
+}
+
+.axis--y path {
+  display: none;
+}
+
+.label {
+  fill: black;
+  font-size: 10px;
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  background: beige;
+  padding: 5px;
+  border:1px solid black;
+}

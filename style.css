@@ -41,7 +41,7 @@
 
 
 .bar {
-  fill: steelblue;
+  fill: silver;
   stroke: black;
 }
 
@@ -62,7 +62,23 @@
   position: absolute;
   z-index: 10;
   visibility: hidden;
-  background: beige;
+  background: silver;
   padding: 5px;
   border:1px solid black;
 }
+
+.legendtitle {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.xlabel{
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.caption{
+  font-family: sans-serif;
+  font-size: 16px;
+}
+

@@ -108,7 +108,7 @@ var svg        = d3.select("svg"),
                   .attr("height", yb.bandwidth()+2)
                 ;
 
-                gMap.selectAll(".legendtitle").style("visibility", "hidden");   
+                d3.selectAll(".legendtitle").style("visibility", "hidden");   
                 
                 gMap.append("text") 
                     .attr("class", "legendtitle")
@@ -127,7 +127,7 @@ var svg        = d3.select("svg"),
                 
                 //console.log(maxCount);
 
-                gMap.selectAll(".legendticks").remove();
+                d3.selectAll(".legendticks").remove();
                 
                 gMap.append("g")
                   .attr("class", "legendticks")
@@ -156,10 +156,10 @@ var svg        = d3.select("svg"),
                     return palette[i]
                 })
     
-                gMap.append("text") 
-                .attr("class","legendtitle")
-                .attr("transform", "translate(410,100)")
-                 .text("Number of American Restaurants");
+                //gMap.append("text") 
+                //.attr("class","legendtitle")
+                //.attr("transform", "translate(410,100)")
+                // .text("Number of American Restaurants");
               
                 // var projection = d3.geoMercator()
                 //      .scale(Math.pow(2, 9.66 + 5.34))
